@@ -1,0 +1,17 @@
+{
+  "name": "webpack-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Khushil Mistry",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^5.75.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
